@@ -1,0 +1,42 @@
+# Python
+*.pyc
+*~
+__pycache__
+**/.ipynb_checkpoints
+
+# Env
+.env/
+env/
+venv/
+myenv/
+
+# Database
+db.sqlite3
+data/
+
+# Static folder at project root
+/static/
+
+# macOS
+._*
+.DS_Store
+.fseventsd
+.Spotlight-V100
+
+# Visual Studio
+.vscode/
+.history/
+*.code-workspace
+
+# Tex
+*.aux
+*.gz
+*.log
+*.fdb_latexmk
+*.synctex.gz
+*.fls
+*.out
+*.blg
+*.bbl
+# Jupyter Book / MyST build output
+_build/

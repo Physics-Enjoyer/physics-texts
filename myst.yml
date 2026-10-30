@@ -1,0 +1,39 @@
+version: 1
+project:
+  title: Physics Texts
+  github: https://github.com/Physics-Enjoyer/physics-texts
+  authors:
+    - name: Shaun
+      # MyST wants a given/family name split; set them if you like
+  toc:
+    - file: index.md            # site home page (first entry can't have children)
+    - file: level2-book/index.md
+      children:
+        - title: Mechanics
+          children:
+            - file: level2-book/mechanics/01-newtons-laws.ipynb
+            - file: level2-book/mechanics/02-momentum-collisions.ipynb
+            - file: level2-book/mechanics/03-angular-momentum.ipynb
+            - file: level2-book/mechanics/04-work-energy.ipynb
+            - file: level2-book/mechanics/05-oscillations.ipynb
+            - file: level2-book/mechanics/06-lagrangian-mechanics.ipynb
+            - file: level2-book/mechanics/07-gravity-orbits.ipynb
+            - file: level2-book/mechanics/08-noninertial-frames.ipynb
+            - file: level2-book/mechanics/09-rigid-bodies.ipynb
+            - file: level2-book/mechanics/10-normal-modes.ipynb
+            - file: level2-book/mechanics/11-hamiltonian-mechanics.ipynb
+            - file: level2-book/mechanics/12-special-relativity.ipynb
+        - title: Math
+          children:
+            - file: level2-book/math/01-vectors-odes.ipynb
+            - file: level2-book/math/02-coordinates-integrals-delta.ipynb
+            - file: level2-book/math/03-multivariable-calculus.ipynb
+            - file: level2-book/math/04-linear-odes-fourier.ipynb
+            - file: level2-book/math/05-calculus-of-variations.ipynb
+            - file: level2-book/math/06-linear-algebra.ipynb
+            - file: level2-book/math/07-legendre-phase-hyperbolic.ipynb
+    # Level 3 book goes here as a second top-level entry, same pattern:
+    # - file: level3-book/index.md
+    #   children: ...
+site:
+  template: book-theme
