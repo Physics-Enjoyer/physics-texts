@@ -3,7 +3,7 @@ project:
   title: Physics Texts
   github: https://github.com/Physics-Enjoyer/physics-texts
   authors:
-    - name: Shaun
+    - name: Physics Enjoyer
       # MyST wants a given/family name split; set them if you like
   toc:
     - file: index.md            # site home page (first entry can't have children)
