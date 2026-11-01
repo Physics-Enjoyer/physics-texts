@@ -32,7 +32,26 @@ project:
             - file: level2-book/math/05-calculus-of-variations.ipynb
             - file: level2-book/math/06-linear-algebra.ipynb
             - file: level2-book/math/07-legendre-phase-hyperbolic.ipynb
-    # Level 3 book goes here as a second top-level entry, same pattern:
+    - file: level2-em-book/index.md
+      children:
+        - title: E&M
+          children:
+            - file: level2-em-book/em/01-electrostatics.ipynb
+            - file: level2-em-book/em/02-potential-energy.ipynb
+            - file: level2-em-book/em/03-boundary-value-problems.ipynb
+            - file: level2-em-book/em/04-multipoles.ipynb
+            - file: level2-em-book/em/05-dielectrics.ipynb
+            - file: level2-em-book/em/06-magnetostatics.ipynb
+            - file: level2-em-book/em/07-induction-maxwell.ipynb
+            - file: level2-em-book/em/08-em-waves.ipynb
+            - file: level2-em-book/em/09-radiation.ipynb
+            - file: level2-em-book/em/10-relativity-electrodynamics.ipynb
+        - title: Math
+          children:
+            - file: level2-em-book/math/01-vector-calculus-fields.ipynb
+            - file: level2-em-book/math/02-separation-of-variables.ipynb
+            - file: level2-em-book/math/03-waves-fourier-transforms.ipynb
+    # Level 3 book goes here as a further top-level entry, same pattern:
     # - file: level3-book/index.md
     #   children: ...
 site:
