@@ -54,5 +54,7 @@ project:
     # Level 3 book goes here as a further top-level entry, same pattern:
     # - file: level3-book/index.md
     #   children: ...
+  exclude:
+    - to-fix/*  # working notes (also gitignored), kept out of the built book
 site:
   template: book-theme

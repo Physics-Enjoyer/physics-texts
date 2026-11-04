@@ -25,7 +25,7 @@ Much of the math was already covered in the mechanics book, so the three math no
 
 | # | Notebook | Covers |
 |---|---|---|
-| E-M1 | [Vector calculus for fields](math/01-vector-calculus-fields.ipynb) | div, curl, Laplacian in curvilinear coordinates; the fundamental theorems; $\nabla\cdot(\hat{\mathbf r}/r^2) = 4\pi\delta^3$; potentials and the Helmholtz theorem |
+| E-M1 | [Vector calculus for fields](math/01-vector-calculus-fields.ipynb) | div, curl, Laplacian in curvilinear coordinates; the fundamental theorems; $\nabla\cdot(\hat{r}/r^2) = 4\pi\delta^3$; potentials and the Helmholtz theorem |
 | E-M2 | [Separation of variables and orthogonal functions](math/02-separation-of-variables.ipynb) | Laplace's equation, Cartesian and spherical separation, Sturm–Liouville, Legendre polynomials, spherical harmonics, relaxation |
 | E-M3 | [Waves and Fourier transforms](math/03-waves-fourier-transforms.ipynb) | the wave equation, plane and spherical waves, retarded time, Fourier transforms, dispersion and group velocity |
 
