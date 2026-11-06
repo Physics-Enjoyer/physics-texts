@@ -9,6 +9,15 @@ project:
     - file: index.md            # site home page (first entry can't have children)
     - file: level2-book/index.md
       children:
+        - title: Math
+          children:
+            - file: level2-book/math/01-vectors-odes.ipynb
+            - file: level2-book/math/02-coordinates-integrals-delta.ipynb
+            - file: level2-book/math/03-multivariable-calculus.ipynb
+            - file: level2-book/math/04-linear-odes-fourier.ipynb
+            - file: level2-book/math/05-calculus-of-variations.ipynb
+            - file: level2-book/math/06-linear-algebra.ipynb
+            - file: level2-book/math/07-legendre-phase-hyperbolic.ipynb
         - title: Mechanics
           children:
             - file: level2-book/mechanics/01-newtons-laws.ipynb
@@ -23,17 +32,13 @@ project:
             - file: level2-book/mechanics/10-normal-modes.ipynb
             - file: level2-book/mechanics/11-hamiltonian-mechanics.ipynb
             - file: level2-book/mechanics/12-special-relativity.ipynb
-        - title: Math
-          children:
-            - file: level2-book/math/01-vectors-odes.ipynb
-            - file: level2-book/math/02-coordinates-integrals-delta.ipynb
-            - file: level2-book/math/03-multivariable-calculus.ipynb
-            - file: level2-book/math/04-linear-odes-fourier.ipynb
-            - file: level2-book/math/05-calculus-of-variations.ipynb
-            - file: level2-book/math/06-linear-algebra.ipynb
-            - file: level2-book/math/07-legendre-phase-hyperbolic.ipynb
     - file: level2-em-book/index.md
       children:
+        - title: Math
+          children:
+            - file: level2-em-book/math/01-vector-calculus-fields.ipynb
+            - file: level2-em-book/math/02-separation-of-variables.ipynb
+            - file: level2-em-book/math/03-waves-fourier-transforms.ipynb
         - title: E&M
           children:
             - file: level2-em-book/em/01-electrostatics.ipynb
@@ -46,13 +51,15 @@ project:
             - file: level2-em-book/em/08-em-waves.ipynb
             - file: level2-em-book/em/09-radiation.ipynb
             - file: level2-em-book/em/10-relativity-electrodynamics.ipynb
-        - title: Math
-          children:
-            - file: level2-em-book/math/01-vector-calculus-fields.ipynb
-            - file: level2-em-book/math/02-separation-of-variables.ipynb
-            - file: level2-em-book/math/03-waves-fourier-transforms.ipynb
     - file: level2-qm-book/index.md
       children:
+        - title: Math
+          children:
+            - file: level2-qm-book/math/01-complex-probability.ipynb
+            - file: level2-qm-book/math/02-series-solutions-special-functions.ipynb
+            - file: level2-qm-book/math/03-hilbert-space-dirac.ipynb
+            - file: level2-qm-book/math/04-rotations-spherical-harmonics.ipynb
+            - file: level2-qm-book/math/05-asymptotics-wkb-bessel.ipynb
         - title: Quantum
           children:
             - file: level2-qm-book/qm/01-wave-function.ipynb
@@ -66,15 +73,13 @@ project:
             - file: level2-qm-book/qm/09-variational-wkb.ipynb
             - file: level2-qm-book/qm/10-time-dependent-perturbation.ipynb
             - file: level2-qm-book/qm/11-scattering.ipynb
-        - title: Math
-          children:
-            - file: level2-qm-book/math/01-complex-probability.ipynb
-            - file: level2-qm-book/math/02-series-solutions-special-functions.ipynb
-            - file: level2-qm-book/math/03-hilbert-space-dirac.ipynb
-            - file: level2-qm-book/math/04-rotations-spherical-harmonics.ipynb
-            - file: level2-qm-book/math/05-asymptotics-wkb-bessel.ipynb
     - file: level2-thermo-book/index.md
       children:
+        - title: Math
+          children:
+            - file: level2-thermo-book/math/01-counting-probability-stirling.ipynb
+            - file: level2-thermo-book/math/02-gaussian-gamma-integrals.ipynb
+            - file: level2-thermo-book/math/03-thermodynamic-calculus.ipynb
         - title: Thermo and stat mech
           children:
             - file: level2-thermo-book/thermo/01-ideal-gas-kinetic-theory.ipynb
@@ -85,11 +90,6 @@ project:
             - file: level2-thermo-book/thermo/06-boltzmann-statistics.ipynb
             - file: level2-thermo-book/thermo/07-quantum-statistics.ipynb
             - file: level2-thermo-book/thermo/08-phase-transitions.ipynb
-        - title: Math
-          children:
-            - file: level2-thermo-book/math/01-counting-probability-stirling.ipynb
-            - file: level2-thermo-book/math/02-gaussian-gamma-integrals.ipynb
-            - file: level2-thermo-book/math/03-thermodynamic-calculus.ipynb
     # Level 3 book goes here as a further top-level entry, same pattern:
     # - file: level3-book/index.md
     #   children: ...
