@@ -98,3 +98,5 @@ project:
     - to-fix/*  # working notes (also gitignored), kept out of the built book
 site:
   template: book-theme
+  options:
+    favicon: images/favicon.ico
