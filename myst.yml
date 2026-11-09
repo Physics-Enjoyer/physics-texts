@@ -7,6 +7,7 @@ project:
       # MyST wants a given/family name split; set them if you like
   toc:
     - file: index.md            # site home page (first entry can't have children)
+    - file: study-order.md      # every notebook in one linked sequence
     - file: level2-book/index.md
       children:
         - title: Math

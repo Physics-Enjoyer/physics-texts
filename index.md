@@ -23,6 +23,8 @@ Each subject climbs three levels. Level 1 lives in my own notes; this site holds
 
 ## Study order
 
+For every notebook in order, with links, see the [study order page](study-order.md).
+
 :::{figure} images/study-order-vertical.png
 :alt: Study order by wave. Waves 1 to 7 run top to bottom; columns are Mechanics, Quantum, E&M, Thermo and side threads.
 :width: 100%
