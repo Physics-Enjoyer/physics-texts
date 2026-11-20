@@ -1,0 +1,17 @@
+/* Griffiths' script r for the separation vector (r - r').
+
+   How it works: notebooks write \scriptr. On the site, myst.yml defines
+   \scriptr as \mathfrak{r}, which KaTeX renders as a plain "r" inside a
+   span with class "mathfrak". The font below was built from
+   images/script_r/ScriptR.pdf, and its unicode-range covers only "r", so
+   inside .mathfrak the "r" is drawn with Griffiths' glyph while every other
+   fraktur letter still falls through to KaTeX_Fraktur.
+   (Side effect: \mathfrak{r} itself can't be a real fraktur r on the site.) */
+@font-face {
+  font-family: "Griffiths Script R";
+  src: url(data:font/woff2;base64,d09GMk9UVE8AAAKoAAkAAAAABBQAAAJgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYJ6BmAAgQQBNgIkAxAEBgWBAQcgG24DIB6DbevllnV8uJlXHz6sTidrgv/6sd+5+/aLGhASzTxZiTQLmcR0YoNO9CTdbEjPru9JSsr1N2kSUChN/RY2YYLX35J3Auz/D97U/a7ISgPAd+0InKeJhIEmWIB9AI5IU7eJC8cgDD7Zw8FkcIdwQ1JhA6GnpNDRNEH7fsD569IHySbz8QU8WflJowxX137WAkGKZXonJk7mjlY7c3EoNh9O/jcDAADplFAM3BBOjDNpfhSrY5Xq+Bn2jhtXZLJSOTxSVDUSB7PSRai8RtyaTUGCvylGF6vl5udk50OFlfz62o6O6hry3dnO4eqtWlVHR0Un3NddKKSwvme+y5kQq7ts8ATzwGrnLeTGhvLKVqiurCW/pKCksJCcm/G9/F04gIsKq8spQxjpPW0N2kSavMll+ur4LeaNdyrp1fLmHHKCT2iQW7BafmFpbjKElGXW12E279qXa+Sejpq6AbipqbiAkvFd+A5OgBJ7xHs7mPLuzgW5sbayuRcaz23OK8jLzZCSRXzrqEw4P7eiobyqurqesv+xcjwOzTB648mooCADzioZrG9DhhLjePRUSpm+Ogi6JlSDCA6NMsCAC00A/f/Dyq2BKS6A+1GYZVtAKUzyVUrMwOiWMPoOH8bw/+FqgnIadZHvNgtQ9FAzdHVkSfgNv0EwzZe6WW3Hati/qimGJwAep1L+0/7oT6PprASYGWZzqa0aRKMZBNddLwBfsDlGRs4O4LozS6UoQhZGLEAYeQIx1pALRpa5O2x94PXNgSsEXYoUdKg0AlT7EiHoeFBUewIkSyXEEg+hCAEAAAA=) format("woff2");
+  unicode-range: U+0072;
+}
+.katex .katex-html .mathfrak {
+  font-family: "Griffiths Script R", KaTeX_Fraktur;
+}

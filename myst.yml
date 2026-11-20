@@ -8,6 +8,7 @@ project:
   toc:
     - file: index.md            # site home page (first entry can't have children)
     - file: study-order.md      # every notebook in one linked sequence
+    - file: lecture-videos-level-2-mechanics-and-math.md
     - file: level2-book/index.md
       children:
         - title: Math
@@ -96,7 +97,13 @@ project:
     #   children: ...
   exclude:
     - to-fix/*  # working notes (also gitignored), kept out of the built book
+  math:
+    # Griffiths' script r (separation vector r - r'). KaTeX renders \mathfrak{r},
+    # and site.options.style swaps that one glyph for Griffiths' script r.
+    # Notebooks define \scriptr for Jupyter in a hidden cell (remove-cell tag).
+    '\scriptr': '\mathfrak{r}'
 site:
   template: book-theme
   options:
     favicon: images/favicon.ico
+    style: images/script_r/griffiths-script-r.css

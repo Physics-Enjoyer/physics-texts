@@ -11,6 +11,8 @@ Study notes organized by level of the textbook ladder.
 
 ## Project outline
 
+[Video Lectures](./Lecture%20Videos%20Level%202%20Mechanics%20and%20Math.md)
+
 Each subject climbs three levels. Level 1 lives in my own notes; this site holds the Level 2 and Level 3 books.
 
 | Subject | Level 1 (foundation) | Level 2 (intermediate) | Level 3 (advanced) |
