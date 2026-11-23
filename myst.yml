@@ -5,10 +5,13 @@ project:
   authors:
     - name: Physics Enjoyer
       # MyST wants a given/family name split; set them if you like
+  bibliography:
+    - references.bib
   toc:
     - file: index.md            # site home page (first entry can't have children)
     - file: study-order.md      # every notebook in one linked sequence
     - file: lecture-videos-level-2-mechanics-and-math.md
+    - file: references.md         # textbooks, with references.bib
     - file: level2-book/index.md
       children:
         - title: Math
